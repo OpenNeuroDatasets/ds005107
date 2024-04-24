@@ -1,0 +1,17 @@
+{
+    "onset": {
+        "Description": "Event onset time in number of sampling points."
+    },
+    "duration": {
+        "Description": "Duration of the event in number of sampling points."
+    },
+    "response_time": {
+        "Description": "Response time of the participant in seconds."
+    },
+    "button_press": {
+        "Description": "Weather the participant press the button or not."
+    },
+    "stim_file": {
+        "Description": "Current stimulus that is presented on the screen."
+    }
+}
