@@ -2,7 +2,7 @@
   "Name": "OPM-FACE",
   "BIDSVersion": "1.7.0",
   "DatasetType": "raw",
-  "License": "CCBY4.0",
+  "License": "CC0",
   "Authors": [
     "Wei Xu",
     "Bingjiang Lyu",
