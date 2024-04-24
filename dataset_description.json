@@ -1,39 +1,37 @@
 {
-    "Name": "OPM-FACE",
-    "BIDSVersion": "1.4.0",
-    "DatasetType": "raw",
-    "License": "CC0",
-    "Authors": [
-        "Wei Xu",
-        "Bingjiang Lyu",
-        "Xingyu Ru",
-        "Dongxu Li",
-        "Wenyu Gu",
-        "Xiao Ma",
-        "Fufu Zheng",
-        "Tingyue Li",
-        "Pan Liao",
-        "Hao Cheng",
-        "Rui Yang",
-        "Jingqi Song",
-        "Zeyu Jin",
-        "Congcong Li",
-        "Kaiyan He",
-        "Jia-Hong Gao"
-    ],
-    "Acknowledgements": "Wei Xu prepared and updated the data in BIDS format.",
-    "HowToAcknowledge": "If you reference this dataset in a publication, please acknowledge its authors and cite the paper.",
-    "Funding": [
-        "NSFC 81727808",
-        "NSFC 81790650",
-        "NSFC 81790651",
-        "NSFC 81627901",
-        "CRFCIBRB 2020-NKX-PT-02",
-        "NSTI2030MP 2021ZD0200500",
-        "NSTI2030MP 2021ZD0200506"
-    ],
-    "ReferencesAndLinks": [
-        "https://openneuro.org/datasets/ds005107"
-    ],
-    "DatasetDOI": "10.18112/openneuro.ds004570.v1.0.0"
+  "Name": "OPM-FACE",
+  "BIDSVersion": "1.7.0",
+  "DatasetType": "raw",
+  "License": "CCBY4.0",
+  "Authors": [
+    "Wei Xu",
+    "Bingjiang Lyu",
+    "Xingyu Ru",
+    "Dongxu Li",
+    "Wenyu Gu",
+    "Xiao Ma",
+    "Fufu Zheng",
+    "Tingyue Li",
+    "Pan Liao",
+    "Hao Cheng",
+    "Rui Yang",
+    "Jingqi Song",
+    "Zeyu Jin",
+    "Congcong Li",
+    "Kaiyan He",
+    "Jia-Hong Gao"
+  ],
+  "Acknowledgements": "Wei Xu prepared and updated the data in BIDS format.",
+  "HowToAcknowledge": "If you reference this dataset in a publication, please acknowledge its authors and cite the paper.",
+  "Funding": [
+    "NSFC 81727808",
+    "NSFC 81790650",
+    "NSFC 81790651",
+    "NSFC 81627901",
+    "CRFCIBRB 2020-NKX-PT-02",
+    "NSTI2030MP 2021ZD0200500",
+    "NSTI2030MP 2021ZD0200506"
+  ],
+  "ReferencesAndLinks": ["https://openneuro.org/datasets/ds005107"],
+  "DatasetDOI": "10.18112/openneuro.ds005107.v1.0.0"
 }
