@@ -1,7 +1,7 @@
 [![pkCRG6g.png](https://s21.ax1x.com/2024/04/25/pkCRG6g.png)](https://imgse.com/i/pkCRG6g)
 ## OPM-FACE
 
-This is data and code for the manuscript `Decoding the temporal structures and interactions of multiple face dimensions using optically pumped magnetometer magnetoencephalography (OPM-MEG)`. Our dataset adheres to the Brain Imaging Data Structure (BIDS) standard, ensuring compatibility and ease of use for neuroimaging researchers.
+This is data and codes for the manuscript `Decoding the temporal structures and interactions of multiple face dimensions using optically pumped magnetometer magnetoencephalography (OPM-MEG)`. Our dataset adheres to the Brain Imaging Data Structure (BIDS) standard, ensuring compatibility and ease of use for neuroimaging researchers.
 
 **Data for the manuscript**
 
@@ -9,27 +9,27 @@ Decoding the temporal structures and interactions of multiple face dimensions us
 
 **Codes for the manuscript**
 
-Codes are placed in `./code` folder.
+Codes are placed in the `./code` folder.
 
-In `analysis` folder, we provide the scripts for the whole analysis. To run the whole analysis sequentially, please run `python face_0_main.py`. This file contains configuration and main entrance. Please refer to `face_0_main.py` for more details.
+In the `analysis` folder, we provide the scripts for the whole analysis. To run the whole analysis sequentially, please run `python face_0_main.py`. This file contains the configuration and main entrance. Please refer to `face_0_main.py` for more details.
 
 `face_1_prep.py` is for OPM preprocessing. Note that we provide a config flag named `cfg['auto_flag']` to control whether the preprocessing is done automatically or manually. For reviewers' assessment, this flag is recommended to be set to `cfg['auto_flag']=True`, to avoid bulky manual work.
 
-`face_2_dec.py` is for SVM decoding, including svm decoding for temporal dynamics, temporal generalization and svm decoding in test-retest section. Steps in this file are heavily time-consuming.
+`face_2_dec.py` is for SVM decoding, including SVM decoding for temporal dynamics, temporal generalization, and SVM decoding in the test-retest section. The steps in this file are heavily time-consuming.
 
 `face_3_rsa.py` is for multivariate pattern analysis.
 
-`face_4_stat.py` is for statistical tests mainly cluster-based permutation test.
+`face_4_stat.py` is for statistical tests mainly cluster-based permutation tests.
 
-`face_5_bayes.m` is used to run Bayesian model selection to recognize the temporal generalization patterns. It should be run manually as the main entrance `face_0_main.py` only includes step `1` to `4`. Before you run this matlab script, make sure you have already install [VBA toolbox](https://github.com/MBB-team/VBA-toolbox) in your searching path.
+`face_5_bayes.m` is used to run Bayesian model selection to recognize the temporal generalization patterns. It should be run manually as the main entrance `face_0_main.py` only includes step `1` to `4`. Before you run this Matlab script, make sure you have already installed [VBA toolbox](https://github.com/MBB-team/VBA-toolbox) in your search path.
 
 After finishing all the analysis, you can run the jupyter notebook `face_6_plot.ipynb` to reproduce all the figures in the manuscript.
 
-Note that all of the preprocessed data and intermediate results are placed in `derivatives` folder (of course you could change it to wherever you want simply by refering to configuration in `face_0_main.py`).
+Note that all of the preprocessed data and intermediate results are placed in the `derivatives` folder (of course you could change it to wherever you want simply by referring to the configuration in `face_0_main.py`).
 
-In `experiment` folder is the matlab script for conducting the experiment. Before run the experiment, make sure you have already set up [Psychtoolbox](https://github.com/Psychtoolbox-3/Psychtoolbox-3) correctly in matlab searching path. The usage is detailed in `main_experiment.m`.
+In the `experiment` folder is the Matlab script for conducting the experiment. Before running the experiment, make sure you have already set up [Psychtoolbox](https://github.com/Psychtoolbox-3/Psychtoolbox-3) correctly in the Matlab searching path. The usage is detailed in `main_experiment.m`.
 
-The stimuli are placed in `./stimuli/meg` folder.
+The stimuli are placed in the `./stimuli/meg` folder.
 
 **License**
 
