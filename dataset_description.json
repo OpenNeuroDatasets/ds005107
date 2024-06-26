@@ -24,9 +24,7 @@
     "Acknowledgements": "",
     "HowToAcknowledge": "If you reference this dataset in a publication, please acknowledge its authors and cite the paper.",
     "Funding": [],
-    "ReferencesAndLinks": [
-        "https://openneuro.org/datasets/ds005107"
-    ],
+    "ReferencesAndLinks": [],
     "DatasetDOI": "10.18112/openneuro.ds005107.v1.0.0",
     "EthicsApprovals": []
 }
