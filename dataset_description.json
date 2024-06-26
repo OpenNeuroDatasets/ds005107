@@ -28,7 +28,5 @@
         "https://openneuro.org/datasets/ds005107"
     ],
     "DatasetDOI": "10.18112/openneuro.ds005107.v1.0.0",
-    "EthicsApprovals": [
-        "This study was approved by the Institutional Review Board of Peking University."
-    ]
+    "EthicsApprovals": []
 }
