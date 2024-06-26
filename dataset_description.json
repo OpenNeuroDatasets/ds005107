@@ -3,7 +3,12 @@
     "BIDSVersion": "1.7.0",
     "DatasetType": "raw",
     "License": "CC0",
-    "Authors": [],
+    "Authors": [
+        "Wei Xu",
+        "Bingjiang Lyu",
+        "...",
+        "Jia-Hong Gao"
+    ],
     "Acknowledgements": "",
     "HowToAcknowledge": "",
     "Funding": [],
