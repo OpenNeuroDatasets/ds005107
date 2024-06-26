@@ -1,0 +1,30 @@
+{
+    "Name": "OPM-FACE",
+    "BIDSVersion": "1.7.0",
+    "DatasetType": "raw",
+    "License": "CC0",
+    "Authors": [
+        "Wei Xu",
+        "Bingjiang Lyu",
+        "Xingyu Ru",
+        "Dongxu Li",
+        "Wenyu Gu",
+        "Xiao Ma",
+        "Fufu Zheng",
+        "Tingyue Li",
+        "Pan Liao",
+        "Hao Cheng",
+        "Rui Yang",
+        "Jingqi Song",
+        "Zeyu Jin",
+        "Congcong Li",
+        "Kaiyan He",
+        "Jia-Hong Gao"
+    ],
+    "Acknowledgements": "",
+    "HowToAcknowledge": "",
+    "Funding": [],
+    "ReferencesAndLinks": [],
+    "DatasetDOI": "doi:10.18112/openneuro.ds005107.v1.0.2",
+    "EthicsApprovals": []
+}
