@@ -1,8 +1,0 @@
-To run the whole analysis sequentially, please run `python face_0_main.py`. This file contains the configuration and main entrance. Please refer to `face_0_main.py` for more details. 
-`face_1_prep.py` is for preprocessing. Note that we provide a config flag named `cfg['auto_flag']` to control whether the preprocessing is done automatically or manually. This flag should be set to `cfg['auto_flag']=True`, to avoid bulky manual work. 
-`face_2_dec.py` is for SVM decoding, including SVM decoding for temporal dynamics, temporal generalization, and SVM decoding in the test-retest section. 
-`face_3_rsa.py` is for multivariate pattern analysis. 
-`face_4_stat.py` is for statistical tests mainly cluster-based permutation tests. 
-`face_6_bayes.m` is used to run Bayesian model selection to recognize the temporal generalization patterns. It should be run manually as the main entrance `face_0_main.py` only includes step `1` to `4`. Before running this Matlab script, ensure you have already installed [VBA toolbox](https://github.com/MBB-team/VBA-toolbox) in your search path. 
-Note that all of the preprocessed data and intermediate results are placed in the `derivatives` folder (of course you could change it to wherever you want simply by referring to the configuration in `face_0_main.py`). 
-In the `./code/experiment` folder is the Matlab script for the experiment. Before running the experiment, ensure you have set up [Psychtoolbox](https://github.com/Psychtoolbox-3/Psychtoolbox-3) correctly in the Matlab searching path. The usage is detailed in `main.m`. The stimuli are placed in the `./stimuli/meg` folder.
