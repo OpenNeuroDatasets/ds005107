@@ -4,7 +4,10 @@
     "DatasetType": "raw",
     "License": "CC0",
     "Authors": [
-        "Wei Xu et al."
+        "Wei Xu",
+        "Bingjiang Lyu",
+        "...",
+        "Jia-Hong Gao"
     ],
     "Acknowledgements": "We thank the National Center for Protein Sciences at Peking University in Beijing, China for assistance on data acquisition.",
     "HowToAcknowledge": "If you reference this dataset in a publication, please acknowledge its authors and cite paper: Xu, W., Lyu, B., Ru, X., Li, D., Gu, W., Ma, X., ... & Gao, J. H. (2024). Decoding the temporal structures and interactions of multiple face dimensions using optically pumped magnetometer magnetoencephalography (OPM-MEG). Journal of Neuroscience, 44(47).\n",
