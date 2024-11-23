@@ -9,13 +9,7 @@
     "Acknowledgements": "",
     "HowToAcknowledge": "",
     "Funding": [],
-    "ReferencesAndLinks": [
-        "81727808",
-        "2021ZD0200506",
-        "2021ZD0200500",
-        "2022ZD0206000",
-        "2020-NKX-PT-02"
-    ],
+    "ReferencesAndLinks": [],
     "DatasetDOI": "doi:10.18112/openneuro.ds005107.v1.0.4",
     "EthicsApprovals": [
         "This study was approved by the Institutional Review Board of Peking University."
