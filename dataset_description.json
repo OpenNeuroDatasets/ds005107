@@ -3,16 +3,11 @@
     "BIDSVersion": "1.7.0",
     "DatasetType": "raw",
     "License": "CC0",
-    "Authors": [
-        "Wei Xu",
-        "..."
-    ],
-    "Acknowledgements": "We thank the National Center for Protein Sciences at Peking University in Beijing, China for assistance on data acquisition.",
+    "Authors": ["Wei Xu", "et al."],
+    "Acknowledgements": "",
     "HowToAcknowledge": "",
     "Funding": [],
-    "ReferencesAndLinks": [
-        "https://doi.org/10.1523/JNEUROSCI.2237-23.2024"
-    ],
+    "ReferencesAndLinks": [],
     "DatasetDOI": "doi:10.18112/openneuro.ds005107.v1.1.0",
     "EthicsApprovals": [
         "This study was approved by the Institutional Review Board of Peking University."
