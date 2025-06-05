@@ -1,0 +1,21 @@
+{
+    "Name": "FACE-DEC",
+    "BIDSVersion": "1.7.0",
+    "DatasetType": "raw",
+    "License": "CC0",
+    "Authors": ["Wei Xu", "..."],
+    "Acknowledgements": "We thank the National Center for Protein Sciences at Peking University in Beijing, China for assistance on data acquisition.",
+    "HowToAcknowledge": "",
+    "Funding": [
+        "81727808",
+        "2021ZD0200506",
+        "2021ZD0200500",
+        "2022ZD0206000",
+        "2020-NKX-PT-02"
+    ],
+    "ReferencesAndLinks": ["https://doi.org/10.1523/JNEUROSCI.2237-23.2024"],
+    "DatasetDOI": "doi:10.18112/openneuro.ds005107.v1.1.0",
+    "EthicsApprovals": [
+        "This study was approved by the Institutional Review Board of Peking University."
+    ]
+}
