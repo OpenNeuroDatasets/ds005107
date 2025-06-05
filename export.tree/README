@@ -1,0 +1,6 @@
+For the configuration and main entrance, run `python face_0_main.py`.
+`face_1_prep.py` is for preprocessing.
+`face_2_dec.py` is for SVM decoding.
+`face_3_rsa.py` is for representational similarity analysis.
+`face_4_stat.py` is for some statistical tests.
+`face_6_bayes.m` is used to run Bayesian model selection. It should be run manually as the main entrance `face_0_main.py` only includes steps `1` to `4`. Before running this MATLAB script, ensure you have installed [VBA toolbox](https://github.com/MBB-team/VBA-toolbox) in your search path.
